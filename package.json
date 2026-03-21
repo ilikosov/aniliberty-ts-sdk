@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "check": "tsc -p tsconfig.json --noEmit"
+    "check": "tsc -p tsconfig.json --noEmit",
+    "generate:types": "node scripts/generate-types.js"
   },
   "devDependencies": {
     "typescript": "^5.9.2"
