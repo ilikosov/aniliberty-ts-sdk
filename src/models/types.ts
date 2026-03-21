@@ -422,3 +422,4 @@ export interface CollectionMutationItem {
 export interface CollectionDeleteItem {
   release_id: number;
 }
+
